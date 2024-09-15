@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import 'animate.css/animate.min.css';
 import './App.css';
 
 function App() {
