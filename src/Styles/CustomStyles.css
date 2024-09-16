@@ -1,4 +1,229 @@
 .header {
-  height: 40px;
+  height: 70px;
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+  & .nav-link {
+    margin: 15px;
+    &:hover {
+      color: #ffcb2f;
+    }
+  }
+}
+
+.navbar-collapse.show {
   background-color: #000000;
+  margin-left: 50%;
+}
+
+.navbar-brand {
+  color: white;
+  &:hover {
+    color: #ffcb2f;
+  }
+}
+
+.resume-button {
+  border-radius: 2rem;
+  padding: 3px 15px;
+  &:hover {
+    background-color: white;
+    color: #000000;
+  }
+}
+
+.header.scrolled {
+  background-color: #000000;
+}
+
+.home {
+  height: 710px;
+  background-image: url('../Assets/Home_background.jpg');
+  background-size: cover; /* Optional: cover the entire element */
+  background-position: center;
+  background-blend-mode: lighten;
+}
+
+.home-content-div {
+  padding: 9% 17%;
+}
+
+.about {
+  min-height: 700px;
+  background-color: #f1ececb0;
+}
+
+.skills {
+  min-height: 700px;
+  background-color: rgb(43, 43, 43);
+  justify-content: center;
+}
+
+.experience {
+  min-height: 500px;
+  background-color: #f1ececb0;
+}
+
+.projects {
+  min-height: 500px;
+  background-color: rgb(43, 43, 43);
+}
+
+.contact {
+  min-height: 550px;
+  background-color: white;
+}
+
+.contact-div,
+.projects-div,
+.experience-div,
+.skills-div,
+.about-div {
+  padding: 5%;
+}
+
+.footer {
+  min-height: 100px;
+  background-color: rgb(43, 43, 43);
+}
+
+.footer-div {
+  padding: 2%;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+
+.custom-animation {
+  animation: moveDown 10s ease-in-out infinite;
+  animation-duration: 3s !important;
+}
+
+.arrow-icon {
+  position: absolute;
+  left: 50%;
+}
+
+.tech-skills {
+  background-color: #f3b191;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-icon-div {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  align-content: center;
+  border-radius: 5%;
+}
+
+.exp-time-div {
+  background-color: #ffcb2f;
+  color: black;
+  width: 100px;
+  height: 30px;
+  padding: 2px 10px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.project-card :hover {
+  background-color: #f3b191;
+  transition: background-color 0.5s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.form-control {
+  display: block;
+  border: 0px;
+  width: 100%;
+  height: 45px;
+  padding: 5px 0px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 0px;
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 0px;
+}
+
+.textarea.form-control {
+  height: auto;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.contact-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.contact-button {
+  font-size: 20px;
+  border-radius: 2rem;
+  padding: 10px 30px;
+  &:hover {
+    background-color: white;
+    color: #000000;
+  }
+}
+
+.title-div {
+  background-color: #ffcb2f;
+  padding: 5px 10px;
+  border-radius: 0px 25px 0px 25px;
+}
+
+.project {
+  padding: 15px;
+  background-color: white;
+  border-radius: 1.2rem;
+  transition: 0.25s;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    transform: translateY(-5px);
+    background-color: #ff4081;
+  }
+}
+
+.exps {
+  padding: 15px;
+  background-color: white;
+  border-radius: 1.2rem;
+  transition: 0.25s;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    transform: translateY(-5px);
+    background-color: #030303;
+    color: white;
+  }
 }
