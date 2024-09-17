@@ -19,20 +19,12 @@ const About = () => {
         </div>
 
         <Row className="mt-3">
-          <Col sm={5}>
+          <Col md={5}>
             <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-              <img
-                src={YourPhoto}
-                alt="Your name"
-                style={{
-                  width: '450px',
-                  height: '450px',
-                  borderRadius: '10px',
-                }}
-              />
+              <img src={YourPhoto} alt="Your name" className="about-image" />
             </ScrollAnimation>
           </Col>
-          <Col sm={7} className="text-start mt-2">
+          <Col md={7} className="text-start mt-2">
             <ScrollAnimation animateIn="fadeInRight">
               <p style={{ fontSize: '20px' }}>About You</p>
             </ScrollAnimation>

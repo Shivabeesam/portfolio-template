@@ -36,7 +36,7 @@ const Skills = () => {
           <div className="tech-skills mt-3">
             <h4 className="pt-3">Front-end Skills</h4>
             <Row style={{ padding: '10px 15px' }}>
-              <Col sm={{ span: 1, offset: 3 }}>
+              <Col md={{ span: 1, offset: 3 }}>
                 <div className="skill-icon-div">
                   <FaReact
                     className="skill-icon"
@@ -45,7 +45,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <IoLogoJavascript
                     className="skill-icon"
@@ -54,7 +54,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <FaHtml5
                     className="skill-icon"
@@ -63,7 +63,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <FaCss3Alt
                     className="skill-icon"
@@ -72,7 +72,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <FaBootstrap
                     className="skill-icon"
@@ -81,7 +81,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <SiTypescript
                     className="skill-icon"
@@ -97,7 +97,7 @@ const Skills = () => {
           <div className="tech-skills mt-4">
             <h4 className="pt-3">Back-end Skills</h4>
             <Row style={{ padding: '10px 15px' }}>
-              <Col sm={{ span: 1, offset: 3 }}>
+              <Col md={{ span: 1, offset: 3 }}>
                 <div className="skill-icon-div">
                   <FaJava
                     className="skill-icon"
@@ -106,7 +106,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <SiSpring
                     className="skill-icon"
@@ -115,7 +115,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <SiSpringboot
                     className="skill-icon"
@@ -124,7 +124,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <SiHibernate
                     className="skill-icon"
@@ -133,7 +133,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <SiSpringsecurity
                     className="skill-icon"
@@ -142,7 +142,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <img
                     src={StrutsImage}
@@ -159,7 +159,7 @@ const Skills = () => {
           <div className="tech-skills mt-4">
             <h4 className="pt-3">Database and CI/CD</h4>
             <Row style={{ padding: '10px 10px' }}>
-              <Col sm={{ span: 1, offset: 4 }}>
+              <Col md={{ span: 1, offset: 4 }}>
                 <div className="skill-icon-div">
                   <BiLogoPostgresql
                     className="skill-icon"
@@ -168,7 +168,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <TbBrandMysql
                     className="skill-icon"
@@ -177,7 +177,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <FaGitAlt
                     className="skill-icon"
@@ -186,7 +186,7 @@ const Skills = () => {
                   />
                 </div>
               </Col>
-              <Col sm={1}>
+              <Col md={1}>
                 <div className="skill-icon-div">
                   <FaGitlab
                     className="skill-icon"

@@ -83,7 +83,7 @@ const ContactForm = () => {
       />
       <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
         <Row>
-          <Col sm={6}>
+          <Col md={6}>
             <input
               id="name"
               type="text"
@@ -100,7 +100,7 @@ const ContactForm = () => {
             />
             {!validName && <span style={{ color: 'red' }}>{nameError}</span>}
           </Col>
-          <Col sm={6}>
+          <Col md={6}>
             <input
               id="email"
               type="email"
@@ -124,7 +124,7 @@ const ContactForm = () => {
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
         <Row>
-          <Col sm={12}>
+          <Col md={12}>
             <textarea
               id="message"
               name="message"
@@ -142,7 +142,7 @@ const ContactForm = () => {
           </Col>
         </Row>
         <Row className="pt-3">
-          <Col sm={12}>
+          <Col md={12}>
             <Button
               color="warning"
               className="contact-button mt-4"
