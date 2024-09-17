@@ -119,7 +119,7 @@
 .tech-skills {
   background-color: #f3b191;
   width: 100%;
-  height: 150px;
+  min-height: 150px;
   border-radius: 10px;
 }
 
@@ -225,5 +225,31 @@
     transform: translateY(-5px);
     background-color: #030303;
     color: white;
+  }
+}
+
+.about-image {
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .project {
+    margin: 5px;
+  }
+  .skill-icon-div {
+    margin: auto;
+    padding: 10px 0px;
+  }
+  .custom-animation {
+    padding-top: 10%;
+  }
+  .exp-time-div {
+    height: 60px;
+  }
+  .about-image {
+    width: 100%;
+    height: 100%;
   }
 }

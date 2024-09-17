@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
         <ScrollAnimation animateIn="fadeInTop" delay={0.2 * 1000}>
           <Row className="text-start mt-3">
-            <Col sm={4}>
+            <Col md={4}>
               <FaLocationDot
                 className="contact-icon"
                 title="Email"
@@ -25,7 +25,7 @@ const Contact = () => {
               />
               <span style={{ marginLeft: '10px' }}>Your Location</span>
             </Col>
-            <Col sm={4}>
+            <Col md={4}>
               <MdEmail
                 className="contact-icon"
                 title="Email"
@@ -33,7 +33,7 @@ const Contact = () => {
               />
               <span style={{ marginLeft: '10px' }}>Your Email</span>
             </Col>
-            <Col sm={4}>
+            <Col md={4}>
               <IoCallSharp
                 className="contact-icon"
                 title="phone number"

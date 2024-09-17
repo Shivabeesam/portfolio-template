@@ -14,7 +14,7 @@ const Experience = () => {
           </h3>
         </div>
         <Row className="mt-3">
-          <Col sm={6}>
+          <Col md={6}>
             <ScrollAnimation animateIn="fadeInLeft">
               <div className="exps text-start">
                 <div
@@ -32,7 +32,7 @@ const Experience = () => {
               </div>
             </ScrollAnimation>
           </Col>
-          <Col sm={6}>
+          <Col md={6}>
             <ScrollAnimation animateIn="fadeInRight">
               <div className="exps text-start">
                 <div
